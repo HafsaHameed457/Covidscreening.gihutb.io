@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    margin:0;
+    padding: 0;
+width: 100%;
+}
+.modal-dialog {
+    position: relative;
+    width: 405px;
+    margin: auto;
+    pointer-events: none;
+    height: 949px;
+    background: white;
+
+}
+.main{
+    width:405px; 
+    /* height:949px; */
+    border: 0.5px solid rgb(229, 225, 225); 
+    margin: auto;
+}
+.smain{
+    --bs-bg-opacity:0.2;
+}
+.q{
+    display: none;
+}
+.q.active{
+ display: block;
+}
